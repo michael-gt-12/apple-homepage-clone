@@ -1,0 +1,846 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+img{
+  max-width:100%;
+}
+
+
+/* header CSS */
+
+
+#header{
+  position:sticky;
+  top:0px;
+  width: 100%;
+  height: 45px;
+  background-color:rgba(255, 255, 255, 0.71);
+  backdrop-filter: blur(20px);
+  border-bottom:1px;
+  z-index:2;
+}
+
+#header nav{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  height: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  color:black;
+  font-size:15px;
+  margin-left:15px;
+  margin-right: 15px;
+}
+
+/* footer CSS */
+
+
+footer{
+  background-color: #F5F5F7;
+  font-family: "Inter", sans-serif;
+  font-size:14px;
+  font-weight: 100;
+  color:#6C6C6C;
+}
+
+footer .paragraphs{
+  margin-top:40px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer .paragraphs p{
+  margin-top:0px;
+  margin-bottom:15px;
+}
+
+footer .paragraphs p a{
+  text-decoration:underline;
+  color:#6C6C6C;
+}
+
+footer .paragraphs #last_p{
+  margin-bottom:25px;
+}
+
+
+.referals div{
+  margin-right:40px;
+}
+
+.referals{
+  display:flex;
+  width:1100px;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.referals h3{
+  margin-top:0px;
+  margin-bottom:13px;
+  font-weight: 900;
+  font-size:14px;
+}
+
+.referals .decor{
+  margin-top:27px;
+}
+
+.referals ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; 
+}
+
+.referals ul a{
+  color:#6C6C6C;
+  text-decoration: none;
+}
+
+.referals ul a:hover{
+  color:#6C6C6C;
+  text-decoration: underline;
+}
+
+.referals ul li{
+  margin-bottom:15px;
+  text-decoration:none;
+}
+
+.last_footer{
+  width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  margin-bottom:20px;
+}
+
+.last_footer #p1{
+  color:#6C6C6C;
+}
+
+.last_footer #p1 a{
+  color:#3A88D6;
+  margin-top:25px;
+  margin-bottom:20px;
+}
+
+.last_footer #p2 #a1{
+  margin-left:30px;
+}
+
+.last_footer #p2 a{
+  color:#6C6C6C;
+  text-decoration: none;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.last_footer #p2 a:hover{
+  text-decoration: underline;
+}
+
+/* first banner CSS */
+
+
+.iphone_banner{
+  background-image: url("images/1st_banner.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:692px;
+  max-width:3008px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+}
+
+.text_button h1{
+  padding-top:40px;
+  padding-bottom:10px;
+  font-size:50px;
+  font-weight: 700;
+}
+
+.text_button #first{
+  padding-bottom:18px;
+  font-size:30px;
+  font-weight: 400;
+}
+
+.text_button #second {
+  padding-top:30px;
+  font-size: 21px; 
+  font-weight: bold;
+  background: linear-gradient(to right, #007aff, #5e5ce6, #af52de, #ff2d55, #ff3b30, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons #b1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+  text-decoration: none;
+  color:white;
+  }
+}
+
+.buttons #b2{
+  background-color:#F5F5F7;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.buttons #b2:hover{
+  background-color:#0077ED ;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+/* education banner CSS */
+
+.education_banner{
+  background-image: url("images/2nd_banner.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:692px;
+  max-width:3008px;
+  padding-top:60px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+}
+
+.education_banner .top_container .top{
+  width:310px;
+  background-color: #0077ED;
+  color:#ffffff;
+  border-radius: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  p{
+    font-size:45px;
+    text-align:left;
+    font-weight:bold;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:29px;
+  }
+}
+
+.education_banner .top_container .ipad_sticker{
+  position:relative;
+  top:-150px;
+  left:250px;
+}
+
+.education_banner .top_container .mac_sticker{
+  position:relative;
+  top:-230px;
+  left:150px;
+}
+
+.education_banner .middle .bubble_tail{
+  position:relative;
+  left:0px;
+  top:-130px;
+  width:330px;
+}
+
+.education_banner .middle .bubble_tail path{
+  fill:#0077ED;
+}
+
+.education_banner .middle h2{
+  position:relative;
+  top:-95px;
+  color:white;
+  z-index:1;
+}
+
+.education_banner .bottom_container .bubble_tail{
+  position:relative;
+  top:-370px;
+  left:0px;
+  width:330px;
+}
+
+.education_banner .bottom_container .bubble_tail path{
+  fill:#0077ED;
+}
+
+.education_banner .bottom_container p{
+  position:relative;
+  top:-145px;
+  color:white;
+  font-size:45px;
+  font-weight: 700;
+  width:270px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+  z-index:1;
+}
+
+.education_banner .bottom_container img{
+  position:relative;
+  top:-130px;
+  left:-150px;
+  z-index:1;
+
+}
+
+.education_banner  .button .button_1{
+  position:relative;
+  top:-360px;
+  background-color:#F5F5F7;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 25px;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.education_banner .button .button_1:hover{
+  background-color:#0077ED ;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+
+/* ipad banne */
+
+.ipad_banner{
+  background-image: url("images/3rd_banner.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:692px;
+  max-width:3008px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  color:white;
+}
+
+.ipad_banner .top .top_text h1{
+  font-size:50px;
+  font-weight:700;
+  padding-top:50px;
+}
+
+.ipad_banner .top .top_text p{
+  font-size:28px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.ipad_banner .top .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.ipad_banner .top .buttons .button_2{
+  background-color: black;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.ipad_banner .top .buttons .button_2:hover{
+  background-color:#0077ED ;
+  cursor:pointer;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+.ipad_banner .end_p{
+  position:relative;
+  top:350px;
+  padding-top:30px;
+  font-size: 21px; 
+  font-weight: bold;
+  background: linear-gradient(to right, #007aff, #5e5ce6, #af52de, #ff2d55, #ff3b30, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mac and iPad CSS */
+
+.mac_ipad{
+  max-width:3008px;
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+}
+
+
+.mac_ipad .first_col{
+  background-image: url("images/mac.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:15px;
+  margin-right:7px;
+}
+
+.mac_ipad .first_col .top_text h1{
+    padding-top:50px;
+    font-size:40px;
+    font-weight:700;
+  }
+
+.mac_ipad .first_col .top_text .p1{
+    margin-top:5px;
+    font-size:22px;
+    font-weight: 100;
+  }
+
+.mac_ipad .first_col .top_text .p2{
+    font-size:22px;
+    font-weight: 100;
+    margin-bottom:15px;
+  }
+
+.mac_ipad .first_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.mac_ipad .first_col .buttons .button_2{
+  background-color: #E7F2F8;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.mac_ipad .first_col .buttons .button_2:hover{
+  background-color:#0077ED ;
+  cursor:pointer;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+.mac_ipad .first_col .end_p{
+  position:relative;
+  top:270px;
+  padding-top:30px;
+  font-size: 15px; 
+  font-weight: bold;
+  background: linear-gradient(to right, #007aff, #5e5ce6, #af52de, #ff2d55, #ff3b30, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.mac_ipad .second_col{
+  background-image: url("images/ipad.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:7px;
+  margin-right:15px;
+}
+
+.mac_ipad .second_col .top_text .icon{
+  margin-top:50px
+}
+
+.mac_ipad .second_col .top_text p{
+  margin-top:7px;
+  margin-bottom:10px;
+  font-size:22px;
+  font-weight: 100;
+}
+
+.mac_ipad .second_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.mac_ipad .second_col .buttons .button_2{
+  background-color: #B9E0EF;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.mac_ipad .second_col .buttons .button_2:hover{
+  background-color:#0077ED ;
+  cursor:pointer;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+.mac_ipad .second_col .end_p{
+  position:relative;
+  top:305px;
+  padding-top:30px;
+  font-size: 15px; 
+  font-weight: bold;
+  background: linear-gradient(to right, #007aff, #5e5ce6, #af52de, #ff2d55, #ff3b30, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Watch and pod CSS */
+
+.watch_pod{
+  max-width:3008px;
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+}
+
+
+.watch_pod .first_col{
+  background-image: url("images/watch.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:15px;
+  margin-right:7px;
+}
+
+.watch_pod .first_col .top_text {
+  padding-top:50px;
+  p{
+    font-size:22px;
+    font-weight: 100;
+    margin-top:5px;
+    margin-bottom:15px;
+  }
+}
+
+.watch_pod .first_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.watch_pod .first_col .buttons .button_2{
+  background-color: #F5F5F7;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  a{
+  color:#0077ED;
+  text-decoration: none;
+  }
+}
+
+.watch_pod .first_col .buttons .button_2:hover{
+  background-color:#0077ED ;
+  cursor:pointer;
+  a{
+    color:#F5F5F7;
+  }
+}
+
+
+.watch_pod .second_col{
+  background-image: url("images/podcast.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:7px;
+  margin-right:15px;
+}
+
+.watch_pod .second_col .top_text{
+  padding-top:400px;
+  color:white;
+}
+
+.watch_pod .second_col .buttons{
+  margin-top:10px;
+}
+
+.watch_pod .second_col .top_text p{
+  font-size:22px;
+  font-weight: 100;
+}
+
+.watch_pod .second_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+/* trade and card CSS */
+
+
+.trade_card{
+  max-width:3008px;
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:15px;
+}
+
+
+.trade_card .first_col{
+  background-image: url("images/trade_in.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:15px;
+  margin-right:7px;
+}
+
+.trade_card .first_col .top_text {
+  padding-top:50px;
+  .p1{
+    font-size:22px;
+    font-weight: 100;
+    margin-top:5px;
+  }
+  .p2{
+    font-size:22px;
+    font-weight: 100;
+    margin-bottom:15px;
+  }
+}
+
+.trade_card .first_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+
+.trade_card .second_col{
+  background-image: url("images/card.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:580px;
+  width:1481px;
+  font-family: "Inter", sans-serif;
+  text-align:center;
+  margin-left:7px;
+  margin-right:15px;
+}
+
+.trade_card .second_col .top_text {
+  padding-top:50px;
+  .p1{
+    font-size:22px;
+    font-weight: 100;
+    margin-top:5px;
+  }
+  .p2{
+    font-size:22px;
+    font-weight: 100;
+    margin-bottom:15px;
+  }
+}
+
+.trade_card .second_col .buttons .button_1{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.trade_card .second_col .buttons .button_2{
+  background-color:#F5F5F7;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:#0077ED;
+  border:1px,#0077ED,solid;
+  margin-right:10px;
+  a{
+    color:#0077ED;
+    text-decoration: none;
+  }
+}
+
+.trade_card .second_col .buttons .button_2:hover{
+  background-color:#0077ED;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0.6em 1.4em;
+  border-radius: 9999px;
+  color:white;
+  border:none;
+  margin-right:10px;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
